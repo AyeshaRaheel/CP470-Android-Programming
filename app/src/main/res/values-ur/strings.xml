@@ -3,4 +3,11 @@
     <string name="app_name">AndroidAssignments</string>
     <string name="hello_message">ہیلو ورلڈ!</string>
     <string name="ButtonText">میں ایک بٹن ہوں</string>
+    <string name="login_title">لاگ ان</string>
+    <string name="login_hint">لاگ ان کا نام</string>
+    <string name="password_label">پاس ورڈ</string>
+    <string name="radio_text">ریڈیو بٹن</string>
+    <string name="checkbox_text">چیک باکس</string>
+    <string name="switch_text">یہ کیا کرتا ہے؟</string>
+    <string name="camera_desc">کیمرہ</string>
 </resources>
