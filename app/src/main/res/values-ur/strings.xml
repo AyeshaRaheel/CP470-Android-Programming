@@ -10,4 +10,17 @@
     <string name="checkbox_text">چیک باکس</string>
     <string name="switch_text">یہ کیا کرتا ہے؟</string>
     <string name="camera_desc">کیمرہ</string>
+    <string name="login_button">لاگ ان</string>
+    <string name="error_email_invalid">براہ کرم درست ای میل ایڈریس درج کریں</string>
+    <string name="error_password_empty">پاس ورڈ خالی نہیں ہو سکتا</string>
+    <string name="switch_on">سوئچ آن ہے</string>
+    <string name="switch_off">سوئچ آف ہے</string>
+    <string name="dialog_title">اسکرین بند کریں؟</string>
+    <string name="dialog_message">کیا آپ اس اسکرین کو بند کرنا چاہتے ہیں؟</string>
+    <string name="ok">ہاں</string>
+    <string name="cancel">نہیں</string>
+    <string name="response_message">میری شیئر کرنے والی معلومات</string>
+    <string name="passed_message">ListItemsActivity نے بھیجا: %1$s</string>
+    <string name="no_camera">کوئی کیمرہ ایپ دستیاب نہیں</string>
+    <string name="camera_denied">کیمرے کی اجازت مسترد کر دی گئی</string>
 </resources>
