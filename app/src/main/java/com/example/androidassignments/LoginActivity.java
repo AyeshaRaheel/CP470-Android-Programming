@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
-import android.util.Patterns;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -50,12 +49,12 @@ public class LoginActivity extends AppCompatActivity {
             String email = emailField.getText().toString().trim();
             String password = passwordField.getText().toString();
 
-            if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+            if (!AppLogic.isValidEmail(email)) {
                 Toast.makeText(LoginActivity.this,
                         getString(R.string.error_email_invalid), Toast.LENGTH_SHORT).show();
                 return;
             }
-            if (password.isEmpty()) {
+            if (AppLogic.isPasswordEmpty(password)) {
                 Toast.makeText(LoginActivity.this,
                         getString(R.string.error_password_empty), Toast.LENGTH_SHORT).show();
                 return;

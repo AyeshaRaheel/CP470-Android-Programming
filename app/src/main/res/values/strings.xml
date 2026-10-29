@@ -22,4 +22,6 @@
     <string name="passed_message">ListItemsActivity passed: %1$s</string>
     <string name="no_camera">No camera app available</string>
     <string name="camera_denied">Camera permission was denied</string>
+    <string name="start_chat">Start Chat</string>
+    <string name="send">Send</string>
 </resources>
