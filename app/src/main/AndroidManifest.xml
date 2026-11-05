@@ -25,8 +25,8 @@
         android:theme="@style/Theme.AndroidAssignments">
         <activity
             android:name=".MainActivity"
-            android:parentActivityName=".LoginActivity"
             android:exported="false"
+            android:parentActivityName=".LoginActivity"
             android:windowSoftInputMode="adjustResize">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -55,6 +55,16 @@
             android:name=".ChatWindow"
             android:exported="false"
             android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".TestToolbar"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AndroidAssignments.NoActionBar"
             android:windowSoftInputMode="adjustResize">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

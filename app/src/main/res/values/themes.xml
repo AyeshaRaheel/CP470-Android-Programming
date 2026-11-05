@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.AndroidAssignments" parent="Base.Theme.AndroidAssignments" />
+
+    <style name="Theme.AndroidAssignments.NoActionBar" parent="Theme.AndroidAssignments">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>
+

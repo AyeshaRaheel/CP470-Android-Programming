@@ -41,6 +41,13 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, ChatWindow.class);
             startActivity(intent);
         });
+
+        Button testToolbarButton = findViewById(R.id.testToolbarButton);
+        testToolbarButton.setOnClickListener(v -> {
+            Log.i(ACTIVITY_NAME, "User clicked Test Toolbar");
+            Intent intent = new Intent(MainActivity.this, TestToolbar.class);
+            startActivity(intent);
+        });
     }
 
     // Shows the incoming message in a Toast.
